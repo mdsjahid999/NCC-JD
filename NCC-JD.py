@@ -1612,7 +1612,7 @@ def fcrack(uid,pwx,tl):
 
 			session = requests.Session()
 
-			sys.stdout.write(f'\033[1;92m~\x1b[1;92m[\x1b[1;91m+\x1b[1;92m][\x1b[1;91mNCC-JD\x1b[1;92m] \x1b[1;92mFinding Id~ \x1b[1;91m[%s] \033[1;92mFinded Id -\x1b[1;92m[OK:-%s] \x1b[1;97m\r'%(loop,len(oks))),
+			sys.stdout.write(f'\033[1;92m~\x1b[1;92m[\x1b[1;91m+\x1b[1;92m][\x1b[1;91mNCC-JD\x1b[1;92m]\x1b[1;92mFinding Id~\x1b[1;91m[%s] \033[1;92mFinded Id-\x1b[1;92m[OK:-%s] \x1b[1;97m\r'%(loop,len(oks))),
 
 			sys.stdout.flush()
 
